@@ -1,6 +1,6 @@
 module Pokedex
   class Type
-    attr_accessor :id
+    attr_accessor :id, :names
 
     def initialize(args={})
       args = args.with_indifferent_access
@@ -9,8 +9,7 @@ module Pokedex
     end
 
     def name locale='es'
-      locale = locale.to_s
-      n = @names.select{ |name| name[:locale] == locale }.first
+      n = @names.select{ |name| name[:locale] == locale.to_s }.first
       n ? n[:name] : ''
     end
 

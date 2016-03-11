@@ -3,13 +3,15 @@ module Pokedex
   require 'pokedex/pokemon'
   require 'pokedex/type'
   
-  DEFAULT_TIMEOUT = 300
+  DEFAULT_TIMEOUT = 30 # seconds
 
   class << self
     def get resource_path, options = {}
       Unirest.timeout(timeout)
       url = "#{Pokedex::API_BASE_URL}/#{resource_path}"
+
       puts "\n[Pokedex] request to #{url}\n"
+      
       response = Unirest.get(url, headers: {}, parameters: options[:params], auth: nil)
       puts response.code
       response.body

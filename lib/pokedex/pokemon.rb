@@ -14,7 +14,7 @@ module Pokedex
       self.new Pokedex.get "api/v2/pokemon/#{id}"
     end
 
-    def self.get id
+    def self.get_raw id
       Pokedex.get "api/v2/pokemon/#{id}"
     end
 
