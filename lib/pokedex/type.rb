@@ -3,14 +3,13 @@ module Pokedex
     attr_accessor :id, :names
 
     def initialize(args={})
-      args = args.with_indifferent_access
-      @id = args[:id]
-      @names = args[:names].map{ |name| {name: name[:name], locale: name[:language][:name]} }
+      @id = args['id']
+      @names = args['names'].map{ |name| {name: name['name'], locale: name['language']['name']} }
     end
 
     def name locale='es'
-      n = @names.select{ |name| name[:locale] == locale.to_s }.first
-      n ? n[:name] : ''
+      n = @names.select{ |name| name['locale'] == locale.to_s }.first
+      n ? n['name'] : ''
     end
 
     def self.find id
