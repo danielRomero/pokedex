@@ -1,10 +1,16 @@
 module Pokedex
-  require 'unirest'
-  require 'pry'
-  require 'awesome_print'
-  require 'pokedex/pokemon'
-  require 'pokedex/evolution_chain'
+  require 'pry' # only for debug
+  require 'awesome_print' # only for debug
+
+  require 'unirest' # for api requests
+  
+  require 'pokedex/area'
   require 'pokedex/egg_group'
+  require 'pokedex/evolution_chain'
+  require 'pokedex/generation'
+  require 'pokedex/location'
+  require 'pokedex/pokemon'
+  require 'pokedex/region'
 
   class << self
 
