@@ -1,0 +1,117 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://pokeapi.co/api/v2/location-area/1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip
+      User-Agent:
+      - unirest-ruby/1.1
+  response:
+    status:
+      code: 301
+      message: MOVED PERMANENTLY
+    headers:
+      Date:
+      - Wed, 23 Mar 2016 17:33:26 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d64c95d4585c0daa400fa63e387799bd81458754405; expires=Thu, 23-Mar-17
+        17:33:25 GMT; path=/; domain=.pokeapi.co; HttpOnly
+      X-Frame-Options:
+      - SAMEORIGIN
+      Location:
+      - http://pokeapi.co/api/v2/location-area/1/
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 2883a0db877a0dcf-MAD
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Wed, 23 Mar 2016 17:33:26 GMT
+- request:
+    method: get
+    uri: http://pokeapi.co/api/v2/location-area/1/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip
+      User-Agent:
+      - unirest-ruby/1.1
+      Cookie:
+      - __cfduid=d64c95d4585c0daa400fa63e387799bd81458754405; domain=.pokeapi.co
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 23 Mar 2016 17:33:28 GMT
+      Content-Type:
+      - application/json;q=0.5
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Cookie
+      X-Frame-Options:
+      - SAMEORIGIN
+      Allow:
+      - GET, HEAD, OPTIONS
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 2883a0e39fb92f9b-MAD
+      Content-Encoding:
+      - gzip
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAA7SV226DMAxA/8XP6ULbddXyK1OFrODRaCFBaUCdKv594tIo
+        22BlVH2EkGNz4tgXUBmINQODBYEAiQY11rSSyn+u0BECgxwLSpXJ6Nx9Skba
+        ynhyaUH+aLPUoacTiLcL/FwCcbmSrc5WzmbAoHIaBBy9LwXnpf0gLNWTtBxL
+        xesND4xVj+cbDg2DmtxJWZNm5FHpPlwbGMRmF1ajeKVGr0xV3A44kPn6mUPT
+        sAv8iSV0+h/M7QxmprCwZoaakGmrpDm0uQZbw2FEBnJrlypvsw5SR5TvkrAa
+        Bbxb+QT2LuXjzAcpP1UluYVl3lZfsDrifP+YMp/A3uV8nPkw5+799oUM9+Ta
+        VXY3dK8fU+IT2Lt0jzMX6z4w0FaiV9ZEl/vbZLjt+0rg685zO176nj0MGmCg
+        0eQV5hQFITODPGzjr10TZNCOkMKaNBxxH2h4HdE9GY/S2hn9e9jM99PDZ2jG
+        EX+ZcQYFnlN5RCMJxEvCop4eD7tCmVRTTRrEJuk3DY/bhIG0JlPtkaU16qpz
+        fWAQU/tpGqV7qhZfnH72/DZQLqjj//z/FwAAAP//7JjRCsIwDEX/Zc97sLoq
+        fk4fREQEqe5B/HlJoaxbW2PbhDntD4y7JOfmpl///3mhY6ElMAEkhpnuDymc
+        xROHP2UUnMl0zDoUM9k2y6Bs0X9Pwdieo/0dcfvbZxM3/TmmMQL87a70o8c3
+        t12qYr2Khi8e2gXLwMNXA7yXnQB8q/UXikDBfk4d4Ip8H7G4hiHC3EUdT2el
+        rynUQWAOX5hc1H2CHVwvkIBttpNZlS587ICnFMdrTTMdTWj3wY09K6DVBGYz
+        SIKqIQMZUFT2CDcpUqqg0HqcVVDIvkkFbUYt22EdgzvOGyJSQdCCYYa2mCA4
+        RqkFGT/z/ab8chSyuk3m06N9pHYcMBVuQT8pY0tOFVTdBtkPf+02NDmyGg6b
+        4eApsBoOAniNN0iBJvHmBQAA///sWu8KgyAQfycL6mX2QUgskCm6Efuwdx83
+        aatNy8uUNXoDPe+83z/rgEfirZPl79+qKL9RTRtpEIStyC2TAIt5uSgTC3KE
+        DJ574w0il3UoJzeKdUrTyST/UIQt1tuaOgAEn2elqZrBI5P03ZlfBcKIIFWd
+        WSWBeVocOrTj50R3P+n47eb+nhZTTHRKMR3+sZMqtxIXAlQ/WgwGdX6UXZQv
+        psOmfA99HBfhizlOMqHieAxU/A+COncvrDItEwKDqkqCiXSsjLRZmW1IX+z9
+        h+PUXLRsZEA4Z7D4SoIx9MdVfgAAAP//wr84FDpwCFmriRrKhqRXo/Qv43Cm
+        47TMvLxUkkLY1IzODRUTYgquwThzQvIME7aqhLqTOSQ7CVtlS6mTaFbDjaYU
+        6o2LDeqUQpV+5mixQt6+CCyzNoMkseDoKeWU5maSWsmZD8ZKDty5HvghMLwd
+        JsIrVrDVchQPy1HoJmzVHMVuGth6bvAlFgAAAAD//8JcQT6aWDLyU/TB+79w
+        JRa6VXWDMr2Ah20RJR4R47xYpucozsiohQvJbqJR4QLq0wEAAAD//wMAnDZL
+        rkg5AAA=
+    http_version: 
+  recorded_at: Wed, 23 Mar 2016 17:33:28 GMT
+recorded_with: VCR 3.0.1

@@ -1,0 +1,77 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://pokeapi.co/api/v2/egg-groups/1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip
+      User-Agent:
+      - unirest-ruby/1.1
+  response:
+    status:
+      code: 404
+      message: NOT FOUND
+    headers:
+      Date:
+      - Wed, 23 Mar 2016 17:33:29 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d5b6df550b12bbd6c7539bfa681aac97f1458754408; expires=Thu, 23-Mar-17
+        17:33:28 GMT; path=/; domain=.pokeapi.co; HttpOnly
+      X-Frame-Options:
+      - SAMEORIGIN
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 2883a0eddb7b0db7-MAD
+      Content-Encoding:
+      - gzip
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        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
+        DQAA
+    http_version: 
+  recorded_at: Wed, 23 Mar 2016 17:33:29 GMT
+recorded_with: VCR 3.0.1

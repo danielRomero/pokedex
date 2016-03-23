@@ -24,10 +24,6 @@ module Pokedex
       new Pokedex.get URI.parse(url).path
     end
 
-    def self.get_raw id
-      Pokedex.get "api/v2/pokemon-species/#{id}"
-    end
-
     def name locale='es'
       n = names.select{ |name| name[:locale] == locale.to_s }.first
       n ? n[:name] : ''

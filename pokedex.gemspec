@@ -6,7 +6,7 @@ require 'pokedex/version'
 Gem::Specification.new do |spec|
   spec.name          = "pokedex"
   spec.version       = Pokedex::VERSION
-  spec.authors       = ["Daniel Romero"]
+  spec.authors       = ["Daniel Romero Esteban"]
   spec.email         = ["daniel.romero.esteban@gmail.com"]
 
   spec.summary       = %q{here cool.}

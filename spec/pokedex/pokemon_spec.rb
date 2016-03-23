@@ -1,50 +1,57 @@
 require 'spec_helper'
 
 describe Pokedex::Pokemon do
-  # let(:pokemon) { get_random_pokemon }
   before do
-    VCR.insert_cassette 'pokemon'
+    VCR.insert_cassette 'pokemon', record: :new_episodes
   end
 
   after do
     VCR.eject_cassette
   end
 
-  let(:pokemon) { Pokedex::Pokemon.find 1 }
+  let(:pokemon) { random_pokemon }
 
   it 'has a id number' do
     expect(
       pokemon.id
-    ).not_to be nil
+    ).to be > 0
   end
 
   it 'has at least one name' do
     expect(
-      pokemon.names.length
-    ).not_to be :empty?
-
-    expect(
       pokemon.name
-    ).not_to be nil
+    ).not_to be :empty?
   end
 
   it 'has at least one description' do
     expect(
-      pokemon.descriptions.length
-    ).not_to be :empty?
-
-    expect(
       pokemon.description
-    ).not_to be nil
+    ).not_to be :empty?
   end
 
-  it 'has a id number' do
+  it 'has at least one genera' do
     expect(
-      pokemon.id
+      pokemon.genera
+    ).not_to be :empty?
+  end
+
+  it 'has at least one generation_name' do
+    expect(
+      pokemon.generation_name
+    ).not_to be :empty?
+  end
+
+  it 'has evolution chain' do
+    expect(
+      pokemon.evolution_chain
     ).not_to be nil
   end
 
-  it 'does something useful' do
-    expect(true).to eq(true)
+  it 'must respond to methods' do
+    expect(pokemon).to respond_to(
+      :id, :names, :generas, :descriptions, :is_baby,
+      :sprite, :capture_rate, :evolution_chain_url,
+      :egg_groups, :generation_name
+    )
   end
 end
