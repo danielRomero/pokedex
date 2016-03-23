@@ -5,4 +5,5 @@ module Pokedex
   API_PATH = "/api/#{API_VERSION}/"
   DEFAULT_TIMEOUT = 30 # seconds
   ENABLE_RAILS_CACHE = false # set true if you use this gem with rails to cache requests
+  TOTAL_POKEMON_COUNT = 721
 end

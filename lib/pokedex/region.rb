@@ -1,6 +1,6 @@
 module Pokedex
   class Region
-    
+
     attr_accessor :id, :names, :generation, :version_groups_urls
 
     def initialize(args={})
