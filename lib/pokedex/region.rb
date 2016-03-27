@@ -7,7 +7,7 @@ module Pokedex
       @id                  = args['id']
       @names               = args['names'].map{ |name| {name: name['name'], locale: name['language']['name']} }
       @generation          = Generation.find_by_url args['main_generation']['url']
-      @version_groups_urls = args['version_groups'].map{ |version_group| version_groups['url'] }
+      @version_groups_urls = args['version_groups'].map{ |version_group| version_group['url'] }
     end
 
     def self.find id

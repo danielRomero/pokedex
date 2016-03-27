@@ -283,4 +283,70 @@ http_interactions:
         ijd18/33HwAAAP//AwB+U51XWkoAAA==
     http_version: 
   recorded_at: Wed, 23 Mar 2016 17:34:45 GMT
+- request:
+    method: get
+    uri: http://pokeapi.co//api/v2/location-area/1/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip
+      User-Agent:
+      - unirest-ruby/1.1
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 27 Mar 2016 15:58:31 GMT
+      Content-Type:
+      - application/json;q=0.5
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d2cc8ce82c15abbe31122608cf1853fec1459094290; expires=Mon, 27-Mar-17
+        15:58:10 GMT; path=/; domain=.pokeapi.co; HttpOnly
+      Vary:
+      - Cookie
+      X-Frame-Options:
+      - SAMEORIGIN
+      Allow:
+      - GET, HEAD, OPTIONS
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 28a40ad0e6c32f47-MAD
+      Content-Encoding:
+      - gzip
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAA+yY746iMBTF3+V+rlsqMGZ4lY0hN9DVZkpLajEzMb77hj9j
+        YFcXBOqOEz4q9NzDj3tugROIFCJGQGHGIYIEFUo88lUi7McKDUcgsMOMx0Kl
+        /L06latEF8pyE2fc7nUaG7T8ANHP01+HIDp9KmuZroxOgUBhJESwtzaPKM31
+        G8dc/Eg0xVzQ45peNFa1Bl1TOBM4cnMQWsUptyhkXa4sDNE6vBxt1cslWqGK
+        rL9gs5aygML5THpkORp5h6Y/QDMVmGmV3qFaIjlvS91/EN9pPRa534M89Jwg
+        vyE7Cfl1TUfID0XOzUjmQQ/zjZs23zho8034UObm1wjcYQ9u5qbFmYMWZ/O2
+        +JaA1AnarlxnZ+gX/VSgrOJcitR0GzkgIFHtCtzxVhGuBig3y+hrZZdAeUqm
+        VXy5xXWh5u+WuuXKYqL1ANLNYrq5vfnMRZxAhu9xskeVcIhevPYG266XCRVL
+        fuQSorVXL2p++h6BRKtUlMDjI8qiYr0l0FadMzh1KOfp4291/ePGw5MiqCDc
+        ipkp+D058x+cs/B+xkEv4/BZUvbUVz9Hxl5dAAhmBkC+2v24EfiDRfNRDA87
+        W3sPTjtz0vDsOuFprwDuQv8dIMyR/TEcwv/G4UbmMtyJNzT5Pal7fXjqhpBm
+        XdLlJ5IRpCd+7Phj1lYlWp76R7/n3FPXEutvyCuOpn2Em2go+GqGQteG/I6h
+        TZ8f33NtKOgYehn1zjDRkMPtbZk2y7RZps0ybQZMm3meI5eB42zghMvAWQbO
+        YwfObwAAAP//5JqNCYAgEIVXKk+pxhEUE0RFi2j7JhA6MUsbwef9vu8KFZzE
+        wqZOHrhwEbGwQW2bhN5xngFtiw1N2SQ9iFCiveXowNhbOiSy7tBW7QYBIsg0
+        V046eAT3QDPEr5n3J0LMS6O9lwETY0sPtGv8Fu6gv4Zv3X9Gij2t0hjMVEUJ
+        5qSjSCdtvcIpHrfghLMYlSFT5QsAAP//Ir87PhSyFc4wTsvMy0slKYRNzejd
+        OyBquGMQDi2QPARjMvicZEgDJ9GuCzWaUkZGSqFKP3M0sQy3xIKjjsspzc0k
+        tZIzH4yV3CAZ/dGhbMWKySB0k+HQGiocmokFAAAA//8aTSwDNaQ6ZNOLCcnj
+        vIPQTYa0GnqOrQUAAAD//wMAnDZLrkg5AAA=
+    http_version: 
+  recorded_at: Sun, 27 Mar 2016 15:58:31 GMT
 recorded_with: VCR 3.0.1

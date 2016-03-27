@@ -22,4 +22,10 @@ describe Pokedex::EggGroup do
       egg_group.name
     ).not_to be :empty?
   end
+
+  it 'has at least one pokemon_url' do
+    expect(
+      egg_group.pokemon_urls
+    ).not_to be :empty?
+  end
 end

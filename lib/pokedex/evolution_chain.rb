@@ -1,8 +1,8 @@
 module Pokedex
-  class EvolutionChain 
-    attr_accessor :id, :name, :types_url, :evolves
+  class EvolutionChain
+    attr_accessor :id, :evolves
 
-    def initialize(args={})
+    def initialize(args = {})
       @id      = args['id']
       @evolves = [ generate_evolves(args['chain']) ]
     end
@@ -10,7 +10,7 @@ module Pokedex
     def self.find id
       new Pokedex.get "api/v2/evolution-chain/#{id}"
     end
-    
+
     def self.find_by_url url
       new Pokedex.get URI.parse(url).path
     end
