@@ -1,3 +1,5 @@
+require 'codeclimate-test-reporter'
+CodeClimate::TestReporter.start
 $LOAD_PATH.unshift File.expand_path('../../lib', __FILE__)
 
 require 'vcr'
@@ -10,9 +12,7 @@ require 'pokedex/generation'
 require 'pokedex/location'
 require 'pokedex/pokemon'
 require 'pokedex/region'
-require 'codeclimate-test-reporter'
 
-CodeClimate::TestReporter.start
 VCR.configure do |config|
   config.cassette_library_dir = 'spec/fixtures/vcr_cassettes'
   config.hook_into :webmock # or :fakeweb
