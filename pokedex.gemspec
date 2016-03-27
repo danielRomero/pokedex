@@ -28,6 +28,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_dependency 'unirest'
+  spec.add_development_dependency 'codeclimate-test-reporter'
   spec.add_development_dependency 'pry'
   spec.add_development_dependency 'awesome_print'
   spec.add_development_dependency 'vcr'
