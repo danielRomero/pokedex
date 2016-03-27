@@ -16,6 +16,7 @@ CodeClimate::TestReporter.start
 VCR.configure do |config|
   config.cassette_library_dir = 'spec/fixtures/vcr_cassettes'
   config.hook_into :webmock # or :fakeweb
+  config.ignore_hosts 'codeclimate.com'
 end
 
 def random_pokemon
