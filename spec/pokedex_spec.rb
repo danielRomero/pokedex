@@ -8,4 +8,10 @@ describe Pokedex do
   it 'does something useful' do
     expect(true).to eq(true)
   end
+
+  it 'timeout config works' do
+    timeout = rand 100
+    Pokedex.timeout = timeout
+    expect(Pokedex.timeout).to eq(timeout)
+  end
 end

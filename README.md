@@ -43,6 +43,14 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/danielromero/pokedex. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
+### Steps to contribute:
+  1. Open new issue https://github.com/danielRomero/pokedex/issues/new
+  2. Clone this repo to your local machine `git clone git@github.com:danielRomero/pokedex.git`
+  3. Checkout to new branch with issue ID as name `git checkout -b issue-1234`
+  4. Install dependencies `bundle install`
+  5. Test your changes `bundle exec rake spec`
+  6. Commit and push your branch and make new pull request https://github.com/danielRomero/pokedex/compare
+  7. If everything is ok, your changes will be included to the next version.
 
 ## License
 

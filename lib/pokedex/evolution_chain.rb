@@ -19,12 +19,12 @@ module Pokedex
 
     def generate_evolves(chain_args={}, evolves={})
       return evolves if chain_args.empty?
-      evolves[:pokemon]    = chain_args['species'] ?
-                              Pokemon.find_by_url(chain_args['species']['url']) :
-                              nil
-      evolves[:min_level]  = chain_args['evolution_details'] ?
-                              chain_args['evolution_details']['min_level'] :
-                              nil
+      evolves[:pokemon]    = chain_args['species'].nil? ?
+                              nil :
+                              Pokemon.find_by_url(chain_args['species']['url'])
+      evolves[:min_level]  = chain_args['evolution_details'].nil? ?
+                              nil :
+                              chain_args['evolution_details']['min_level']
       evolves[:evolves_to] = chain_args['evolves_to'].map{ |evolve|
                               generate_evolves(evolve)}
       evolves

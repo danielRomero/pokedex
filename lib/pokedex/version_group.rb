@@ -1,10 +1,11 @@
 module Pokedex
   class VersionGroup
-    attr_accessor :id, :name
+    attr_accessor :id, :name, :generation
 
     def initialize(args={})
       @id = args['id']
       @name = args['name']
+      @generation = Generation.find_by_url args['generation']['url']
     end
 
     def self.find id
