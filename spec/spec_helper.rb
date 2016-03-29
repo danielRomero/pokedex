@@ -12,6 +12,7 @@ require 'pokedex/generation'
 require 'pokedex/location'
 require 'pokedex/pokemon'
 require 'pokedex/region'
+require 'pokedex/version_group'
 
 VCR.configure do |config|
   config.cassette_library_dir = 'spec/fixtures/vcr_cassettes'

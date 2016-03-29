@@ -1,0 +1,96 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://pokeapi.co/api/v2/version-group/1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip
+      User-Agent:
+      - unirest-ruby/1.1
+  response:
+    status:
+      code: 301
+      message: MOVED PERMANENTLY
+    headers:
+      Date:
+      - Tue, 29 Mar 2016 18:27:13 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=dd66454867ff4a0f0637666cb20f0aba91459276033; expires=Wed, 29-Mar-17
+        18:27:13 GMT; path=/; domain=.pokeapi.co; HttpOnly
+      X-Frame-Options:
+      - SAMEORIGIN
+      Location:
+      - http://pokeapi.co/api/v2/version-group/1/
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 28b55fe82fc92f89-MAD
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Tue, 29 Mar 2016 18:27:21 GMT
+- request:
+    method: get
+    uri: http://pokeapi.co/api/v2/version-group/1/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip
+      User-Agent:
+      - unirest-ruby/1.1
+      Cookie:
+      - __cfduid=dd66454867ff4a0f0637666cb20f0aba91459276033; domain=.pokeapi.co
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 29 Mar 2016 18:27:13 GMT
+      Content-Type:
+      - application/json;q=0.5
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Cookie
+      X-Frame-Options:
+      - SAMEORIGIN
+      Allow:
+      - GET, HEAD, OPTIONS
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 28b55fe997cb0ddb-MAD
+      Content-Encoding:
+      - gzip
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAA5zS3WrDMAwF4HfRtV3Rst74VUYpXqwlIv5DscOg5N1Hk6yl
+        vcnIrX3OBxK6ATswRwXRBgIDQk5/+UqgIIkjmf9aiiS2cIpgbn/J56NmUFDF
+        g4GulGwQc+rJZj40CW1mHE/4TOMRYVIQ0khXT1biNVDpkhvAfD5wTyN5XfM2
+        fHf07OjFWfyHFGzTcaQ90McLNBTruAY9VPnm2OrMvW26ugc+I0wXBfeoox96
+        mby3saRtdO3iaaGEWk5xD7Q056VdFIwkwzsk5LaZtfi2/PWS/tmdZ5l+AQAA
+        //8DABC0K5mSAgAA
+    http_version: 
+  recorded_at: Tue, 29 Mar 2016 18:27:21 GMT
+recorded_with: VCR 3.0.1

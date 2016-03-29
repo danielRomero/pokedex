@@ -1,15 +1,10 @@
 module Pokedex
   class VersionGroup
-    attr_accessor :id, :names
+    attr_accessor :id, :name
 
     def initialize(args={})
       @id = args['id']
-      @names = args['names'].map{ |name| {name: name['name'], locale: name['language']['name']} }
-    end
-
-    def name locale='es'
-      n = @names.select{ |name| name['locale'] == locale.to_s }.first
-      n ? n['name'] : ''
+      @name = args['name']
     end
 
     def self.find id

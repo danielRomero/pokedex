@@ -28,4 +28,14 @@ describe Pokedex::Generation do
       generation.pokemon_urls
     ).not_to be :empty?
   end
+
+  it 'has region' do
+    expect(
+      generation.region
+    ).not_to be_nil
+
+    expect(
+      generation.region.class
+    ).to be Pokedex::Region
+  end
 end

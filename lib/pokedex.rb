@@ -3,7 +3,7 @@ module Pokedex
   require 'awesome_print' # only for debug
 
   require 'unirest' # for api requests
-  
+
   require 'pokedex/area'
   require 'pokedex/egg_group'
   require 'pokedex/evolution_chain'
@@ -11,6 +11,7 @@ module Pokedex
   require 'pokedex/location'
   require 'pokedex/pokemon'
   require 'pokedex/region'
+  require 'pokedex/version_group'
 
   class << self
 

@@ -26,8 +26,7 @@ module Pokedex
                               chain_args['evolution_details']['min_level'] :
                               nil
       evolves[:evolves_to] = chain_args['evolves_to'].map{ |evolve|
-                              generate_evolves(evolve)
-                            }
+                              generate_evolves(evolve)}
       evolves
     end
 

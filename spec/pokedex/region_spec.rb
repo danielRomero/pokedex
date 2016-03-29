@@ -22,4 +22,16 @@ describe Pokedex::Region do
       region.name
     ).not_to be :empty?
   end
+
+  it 'has at least one version_group' do
+    expect(
+      region.version_groups
+    ).not_to be :empty?
+
+    region.version_groups.each do |version_group|
+      expect(
+        version_group.class
+      ).to be Pokedex::VersionGroup
+    end
+  end
 end

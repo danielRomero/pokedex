@@ -231,4 +231,630 @@ http_interactions:
         sm0YTLE621YxmBfGasSAHZmMtRoBSo4x/IzT3z8AAAD//wMAk+WqBSRZAAA=
     http_version: 
   recorded_at: Sat, 26 Mar 2016 19:18:35 GMT
+- request:
+    method: get
+    uri: http://pokeapi.co//api/v2/version-group/1/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip
+      User-Agent:
+      - unirest-ruby/1.1
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 28 Mar 2016 23:10:30 GMT
+      Content-Type:
+      - application/json;q=0.5
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=dedb205cbf84235f492d7e2760ec222d71459206630; expires=Tue, 28-Mar-17
+        23:10:30 GMT; path=/; domain=.pokeapi.co; HttpOnly
+      Vary:
+      - Cookie
+      X-Frame-Options:
+      - SAMEORIGIN
+      Allow:
+      - GET, HEAD, OPTIONS
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 28aec17e12840dc9-MAD
+      Content-Encoding:
+      - gzip
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAA5zS3WrDMAwF4HfRtV3Rst74VUYpXqwlIv5DscOg5N1Hk6yl
+        vcnIrX3OBxK6ATswRwXRBgIDQk5/+UqgIIkjmf9aiiS2cIpgbn/J56NmUFDF
+        g4GulGwQc+rJZj40CW1mHE/4TOMRYVIQ0khXT1biNVDpkhvAfD5wTyN5XfM2
+        fHf07OjFWfyHFGzTcaQ90McLNBTruAY9VPnm2OrMvW26ugc+I0wXBfeoox96
+        mby3saRtdO3iaaGEWk5xD7Q056VdFIwkwzsk5LaZtfi2/PWS/tmdZ5l+AQAA
+        //8DABC0K5mSAgAA
+    http_version: 
+  recorded_at: Mon, 28 Mar 2016 23:10:34 GMT
+- request:
+    method: get
+    uri: http://pokeapi.co//api/v2/version-group/2/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip
+      User-Agent:
+      - unirest-ruby/1.1
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 29 Mar 2016 18:27:08 GMT
+      Content-Type:
+      - application/json;q=0.5
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d2d350b4d932a4e1ca1fe8f5246bc96be1459276027; expires=Wed, 29-Mar-17
+        18:27:07 GMT; path=/; domain=.pokeapi.co; HttpOnly
+      Vary:
+      - Cookie
+      X-Frame-Options:
+      - SAMEORIGIN
+      Allow:
+      - GET, HEAD, OPTIONS
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 28b55fc5c34f2f35-MAD
+      Content-Encoding:
+      - gzip
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAA5zSTYrDMAwF4LtobY+YtLPxVYZSTKwmIv7DsdMOJXcfkrQp
+        7SaQrfXeBzK6AxtQlQCvHYGCP7I2XEFASIbSPGnIU9KZgwd1f+Zej5JBQEkW
+        FLQ5R4UYQ0c68lcdUEfGocJXGr8RRgEuDHS2pJM/O8ptMD2o3xW3NJCVJW7D
+        kyNnRy7O4q+S03XLnvZAxzeoz9pwcbIv6cK+kZE7XbdlD/yDMJ4ETFFDN3rb
+        vNM+h2300cVqoRI1HPweaGnOn3YSMFDqP6H1IDakRxcPEzX+AwAA//8DADAQ
+        2CNXAgAA
+    http_version: 
+  recorded_at: Tue, 29 Mar 2016 18:27:16 GMT
+- request:
+    method: get
+    uri: http://pokeapi.co//api/v2/version-group/3/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip
+      User-Agent:
+      - unirest-ruby/1.1
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 29 Mar 2016 18:27:08 GMT
+      Content-Type:
+      - application/json;q=0.5
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=de6ef71073ef3f0f3a4d19e45427870e91459276028; expires=Wed, 29-Mar-17
+        18:27:08 GMT; path=/; domain=.pokeapi.co; HttpOnly
+      Vary:
+      - Cookie
+      X-Frame-Options:
+      - SAMEORIGIN
+      Allow:
+      - GET, HEAD, OPTIONS
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 28b55fc94a582f89-MAD
+      Content-Encoding:
+      - gzip
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAA5zSwYrDIBAG4HeZs65sunvxVZalSB3MbI0jxkqh5N0Xk2BJ
+        Lwm96vwfv4MPIAv6JCCYAUGDY2/lSL5gAgGcLKb52mHAZDJxAP1ow+1QEoGA
+        W/Kgoc85aqUiX9FE+riwMpFU6dRzXHUKJgEDFzx7NCmcB8w92xH0T9M9FvTy
+        Fvfh6sjZkYujPqvfJHTuHaTbIIO59BTwHehLwfQroI5avOPmlZzIUTBe/nGf
+        eV9fEXVazISOOGzEqwlHoCX5sqmDJdZst3QomMbXEvUf7Ttrcl7Qs0T7fgfT
+        37XG9A8AAP//AwBvjicUygIAAA==
+    http_version: 
+  recorded_at: Tue, 29 Mar 2016 18:27:16 GMT
+- request:
+    method: get
+    uri: http://pokeapi.co//api/v2/version-group/4/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip
+      User-Agent:
+      - unirest-ruby/1.1
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 29 Mar 2016 18:27:09 GMT
+      Content-Type:
+      - application/json;q=0.5
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=de6ef71073ef3f0f3a4d19e45427870e91459276028; expires=Wed, 29-Mar-17
+        18:27:08 GMT; path=/; domain=.pokeapi.co; HttpOnly
+      Vary:
+      - Cookie
+      X-Frame-Options:
+      - SAMEORIGIN
+      Allow:
+      - GET, HEAD, OPTIONS
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 28b55fcc760e2f89-MAD
+      Content-Encoding:
+      - gzip
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAA5zS3WrDMAwF4HfRtV2xrOzCrzJKMYlwvDqWUZywUfLuIz9t
+        SG9ScmvrfByE7uArMGcF0TYEBkr5a7MNoIClIpm+HEUSmz1HMPfH4PqovQcF
+        nQQwUOecDGLiG9nkTyWjTR77AtdxLBAGBQ33dA1kJV4byjVXLZjvpx6op6C7
+        tA+Pjp4cPTv4MfpPiZw7ghQbJHeZ5QjzuWEaW9Y+0hHojDBcFIyjFf3SZlks
+        3vlog/7hOvO+viBTuYsCIec5bsSbje9Ac/Jl4W+WWLLF3KEnaV9LrKe4Qy1h
+        /Bqt4R8AAP//AwCeb4jH0gIAAA==
+    http_version: 
+  recorded_at: Tue, 29 Mar 2016 18:27:17 GMT
+- request:
+    method: get
+    uri: http://pokeapi.co//api/v2/version-group/7/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip
+      User-Agent:
+      - unirest-ruby/1.1
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 29 Mar 2016 18:27:09 GMT
+      Content-Type:
+      - application/json;q=0.5
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=db460e20d37473a7b459226d53f9016731459276029; expires=Wed, 29-Mar-17
+        18:27:09 GMT; path=/; domain=.pokeapi.co; HttpOnly
+      Vary:
+      - Cookie
+      X-Frame-Options:
+      - SAMEORIGIN
+      Allow:
+      - GET, HEAD, OPTIONS
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 28b55fcfa4d12f35-MAD
+      Content-Encoding:
+      - gzip
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAA5zSwWrDMBAE0H+Zs1Q1SaFUv1JMEPFEFrEls5FNIfjfix03
+        qXtx8VXsPFbD3hBK2HeF6BrC4hyEwlLXdGcvZIRCkpIC+6HgGSkuhxRhbz+R
+        56MOIUChkxoWVc6tNaZNF7o2vJyScW0w/d48583BYFBoUs9jTSfx2DBXqbzC
+        fj74mj1r3bXr8OjoydF3x+xG/yHR+y3IfoHkLifZwhwWTONOVYjcAr0ZDIXC
+        OFryi4uyLi7mtI7O2elrhYLQhxS3QPfk1HOh0FOuf6H5oNapOWx2r4uifh/i
+        f4VpneEbAAD//wMAqyc5P9sCAAA=
+    http_version: 
+  recorded_at: Tue, 29 Mar 2016 18:27:17 GMT
+- request:
+    method: get
+    uri: http://pokeapi.co//api/v2/version-group/10/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip
+      User-Agent:
+      - unirest-ruby/1.1
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 29 Mar 2016 18:27:09 GMT
+      Content-Type:
+      - application/json;q=0.5
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d4faa432f60e598c829f24c40804f996b1459276029; expires=Wed, 29-Mar-17
+        18:27:09 GMT; path=/; domain=.pokeapi.co; HttpOnly
+      Vary:
+      - Cookie
+      X-Frame-Options:
+      - SAMEORIGIN
+      Allow:
+      - GET, HEAD, OPTIONS
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 28b55fd174900dbd-MAD
+      Content-Encoding:
+      - gzip
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAA5zT0WrDIBQG4Hc51zqbrNsgrzJKcfFMXY1HjJFCybuPLFmK
+        vUnJrZz/45ejN7AKmurAwMsOoQGDMiZNTvGeBtdblzECA4oKIzRVzUCjxyiT
+        JQ/N7T92P+Q2A4MhuglLKTRCBLqgDPalJSGDFbkW93FxFDAy6Cjj2aGM/txh
+        MqR6aD5X3WFGx4ewDU8O/3P47Ihq8lcJtd6D1AWShkRxD/NaMJ1sjfW4BzoW
+        kLPaJP4lneM77/deeN8UO94a6fWuctVBwHhiMM0qvGKxyiEomVDxHzKJtvXF
+        EB8zGVFb8gV4kf4ZaE4+vIYnSyzZeu6QMfaPJdZfs40tcVG9FVWK3/YsMa3t
+        NP4CAAD//wMAEEFhYMQDAAA=
+    http_version: 
+  recorded_at: Tue, 29 Mar 2016 18:27:18 GMT
+- request:
+    method: get
+    uri: http://pokeapi.co//api/v2/version-group/1/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip
+      User-Agent:
+      - unirest-ruby/1.1
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 29 Mar 2016 18:27:10 GMT
+      Content-Type:
+      - application/json;q=0.5
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=dd719641a024e2156884cfe05b7e32e5f1459276030; expires=Wed, 29-Mar-17
+        18:27:10 GMT; path=/; domain=.pokeapi.co; HttpOnly
+      Vary:
+      - Cookie
+      X-Frame-Options:
+      - SAMEORIGIN
+      Allow:
+      - GET, HEAD, OPTIONS
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 28b55fd42b872f89-MAD
+      Content-Encoding:
+      - gzip
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAA5zS3WrDMAwF4HfRtV3Rst74VUYpXqwlIv5DscOg5N1Hk6yl
+        vcnIrX3OBxK6ATswRwXRBgIDQk5/+UqgIIkjmf9aiiS2cIpgbn/J56NmUFDF
+        g4GulGwQc+rJZj40CW1mHE/4TOMRYVIQ0khXT1biNVDpkhvAfD5wTyN5XfM2
+        fHf07OjFWfyHFGzTcaQ90McLNBTruAY9VPnm2OrMvW26ugc+I0wXBfeoox96
+        mby3saRtdO3iaaGEWk5xD7Q056VdFIwkwzsk5LaZtfi2/PWS/tmdZ5l+AQAA
+        //8DABC0K5mSAgAA
+    http_version: 
+  recorded_at: Tue, 29 Mar 2016 18:27:18 GMT
+- request:
+    method: get
+    uri: http://pokeapi.co//api/v2/version-group/2/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip
+      User-Agent:
+      - unirest-ruby/1.1
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 29 Mar 2016 18:27:10 GMT
+      Content-Type:
+      - application/json;q=0.5
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d86926b2359a83d8a884dbcd87fa6c3f01459276030; expires=Wed, 29-Mar-17
+        18:27:10 GMT; path=/; domain=.pokeapi.co; HttpOnly
+      Vary:
+      - Cookie
+      X-Frame-Options:
+      - SAMEORIGIN
+      Allow:
+      - GET, HEAD, OPTIONS
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 28b55fd6b6482f77-MAD
+      Content-Encoding:
+      - gzip
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAA5zSTYrDMAwF4LtobY+YtLPxVYZSTKwmIv7DsdMOJXcfkrQp
+        7SaQrfXeBzK6AxtQlQCvHYGCP7I2XEFASIbSPGnIU9KZgwd1f+Zej5JBQEkW
+        FLQ5R4UYQ0c68lcdUEfGocJXGr8RRgEuDHS2pJM/O8ptMD2o3xW3NJCVJW7D
+        kyNnRy7O4q+S03XLnvZAxzeoz9pwcbIv6cK+kZE7XbdlD/yDMJ4ETFFDN3rb
+        vNM+h2300cVqoRI1HPweaGnOn3YSMFDqP6H1IDakRxcPEzX+AwAA//8DADAQ
+        2CNXAgAA
+    http_version: 
+  recorded_at: Tue, 29 Mar 2016 18:27:18 GMT
+- request:
+    method: get
+    uri: http://pokeapi.co//api/v2/version-group/3/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip
+      User-Agent:
+      - unirest-ruby/1.1
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 29 Mar 2016 18:27:11 GMT
+      Content-Type:
+      - application/json;q=0.5
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d367aea7f42ae734e640e036aead76d961459276030; expires=Wed, 29-Mar-17
+        18:27:10 GMT; path=/; domain=.pokeapi.co; HttpOnly
+      Vary:
+      - Cookie
+      X-Frame-Options:
+      - SAMEORIGIN
+      Allow:
+      - GET, HEAD, OPTIONS
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 28b55fd892230ddb-MAD
+      Content-Encoding:
+      - gzip
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAA5zSwYrDIBAG4HeZs65sunvxVZalSB3MbI0jxkqh5N0Xk2BJ
+        Lwm96vwfv4MPIAv6JCCYAUGDY2/lSL5gAgGcLKb52mHAZDJxAP1ow+1QEoGA
+        W/Kgoc85aqUiX9FE+riwMpFU6dRzXHUKJgEDFzx7NCmcB8w92xH0T9M9FvTy
+        Fvfh6sjZkYujPqvfJHTuHaTbIIO59BTwHehLwfQroI5avOPmlZzIUTBe/nGf
+        eV9fEXVazISOOGzEqwlHoCX5sqmDJdZst3QomMbXEvUf7Ttrcl7Qs0T7fgfT
+        37XG9A8AAP//AwBvjicUygIAAA==
+    http_version: 
+  recorded_at: Tue, 29 Mar 2016 18:27:19 GMT
+- request:
+    method: get
+    uri: http://pokeapi.co//api/v2/version-group/4/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip
+      User-Agent:
+      - unirest-ruby/1.1
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 29 Mar 2016 18:27:11 GMT
+      Content-Type:
+      - application/json;q=0.5
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d00daf54ef3105445f5f73688b93c43fd1459276031; expires=Wed, 29-Mar-17
+        18:27:11 GMT; path=/; domain=.pokeapi.co; HttpOnly
+      Vary:
+      - Cookie
+      X-Frame-Options:
+      - SAMEORIGIN
+      Allow:
+      - GET, HEAD, OPTIONS
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 28b55fdb22a32f89-MAD
+      Content-Encoding:
+      - gzip
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAA5zS3WrDMAwF4HfRtV2xrOzCrzJKMYlwvDqWUZywUfLuIz9t
+        SG9ScmvrfByE7uArMGcF0TYEBkr5a7MNoIClIpm+HEUSmz1HMPfH4PqovQcF
+        nQQwUOecDGLiG9nkTyWjTR77AtdxLBAGBQ33dA1kJV4byjVXLZjvpx6op6C7
+        tA+Pjp4cPTv4MfpPiZw7ghQbJHeZ5QjzuWEaW9Y+0hHojDBcFIyjFf3SZlks
+        3vlog/7hOvO+viBTuYsCIec5bsSbje9Ac/Jl4W+WWLLF3KEnaV9LrKe4Qy1h
+        /Bqt4R8AAP//AwCeb4jH0gIAAA==
+    http_version: 
+  recorded_at: Tue, 29 Mar 2016 18:27:19 GMT
+- request:
+    method: get
+    uri: http://pokeapi.co//api/v2/version-group/7/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip
+      User-Agent:
+      - unirest-ruby/1.1
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 29 Mar 2016 18:27:12 GMT
+      Content-Type:
+      - application/json;q=0.5
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d38a182285838ef5026c6db8e5dffee7a1459276032; expires=Wed, 29-Mar-17
+        18:27:12 GMT; path=/; domain=.pokeapi.co; HttpOnly
+      Vary:
+      - Cookie
+      X-Frame-Options:
+      - SAMEORIGIN
+      Allow:
+      - GET, HEAD, OPTIONS
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 28b55fe3eb422f65-MAD
+      Content-Encoding:
+      - gzip
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAA5zSwWrDMBAE0H+Zs1Q1SaFUv1JMEPFEFrEls5FNIfjfix03
+        qXtx8VXsPFbD3hBK2HeF6BrC4hyEwlLXdGcvZIRCkpIC+6HgGSkuhxRhbz+R
+        56MOIUChkxoWVc6tNaZNF7o2vJyScW0w/d48583BYFBoUs9jTSfx2DBXqbzC
+        fj74mj1r3bXr8OjoydF3x+xG/yHR+y3IfoHkLifZwhwWTONOVYjcAr0ZDIXC
+        OFryi4uyLi7mtI7O2elrhYLQhxS3QPfk1HOh0FOuf6H5oNapOWx2r4uifh/i
+        f4VpneEbAAD//wMAqyc5P9sCAAA=
+    http_version: 
+  recorded_at: Tue, 29 Mar 2016 18:27:20 GMT
+- request:
+    method: get
+    uri: http://pokeapi.co//api/v2/version-group/10/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*; q=0.5, application/xml"
+      Accept-Encoding:
+      - gzip
+      User-Agent:
+      - unirest-ruby/1.1
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 29 Mar 2016 18:27:13 GMT
+      Content-Type:
+      - application/json;q=0.5
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d1c55533ca23b39023f133f9351b5b5ef1459276032; expires=Wed, 29-Mar-17
+        18:27:12 GMT; path=/; domain=.pokeapi.co; HttpOnly
+      Vary:
+      - Cookie
+      X-Frame-Options:
+      - SAMEORIGIN
+      Allow:
+      - GET, HEAD, OPTIONS
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 28b55fe5d6850dc9-MAD
+      Content-Encoding:
+      - gzip
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAA5zSwWrDMAwG4HfR2Z6brGzgVxmjqLFme3Us4zhmUPruI8vW
+        4FNHruLXh4R0BW9AdwcBEUcCDY4wF8vByInnMPlQKYMAzoYy6K4XYClSxuI5
+        gr7+tW1F6SsImHNYsFKSVirxhTD5p4EVJq9qr7a4Oiq4CRi50ikQ5ngaqTg2
+        E+i3ux6oUpBzegwvjvxx5OqobvHvElm7B+kbpMyF8x7muWFGHJyPtAc6NlDw
+        1hV5xhDkzv1eGu+D8ygHh9HuGq47KLi9C1iyhr6oOeWcDBYy8pNd4cf6r6Fe
+        VzKT9Rwb8ILxP9DauX3DNwAAAP//Ausl0hFQvUYQN5SlFhWjOwKeawgbBtWu
+        b2iK4hSU3EasEaBoi60FAAAA//8DABBBYWDEAwAA
+    http_version: 
+  recorded_at: Tue, 29 Mar 2016 18:27:21 GMT
 recorded_with: VCR 3.0.1
