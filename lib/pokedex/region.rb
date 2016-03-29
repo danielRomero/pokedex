@@ -19,8 +19,8 @@ module Pokedex
     end
 
     def name locale='es'
-      n = @names.select{ |name| name[:locale] == locale.to_s }.first
-      n ? n[:name] : @names.first[:name]
+      n = names.find{ |name| name[:locale] == locale.to_s }
+      n ? n[:name] : ''
     end
 
     def version_groups

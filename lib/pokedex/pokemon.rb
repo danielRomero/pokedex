@@ -25,17 +25,17 @@ module Pokedex
     end
 
     def name locale='es'
-      n = names.select{ |name| name[:locale] == locale.to_s }.first
+      n = names.find{ |name| name[:locale] == locale.to_s }
       n ? n[:name] : ''
     end
 
     def genera locale='es'
-      n = generas.select{ |genera| genera[:locale] == locale.to_s }.first
+      n = generas.find{ |genera| genera[:locale] == locale.to_s }
       n ? n[:genera] : ''
     end
 
     def description locale='es'
-      n = descriptions.select{ |description| description[:locale] == locale.to_s }.first
+      n = descriptions.find{ |description| description[:locale] == locale.to_s }
       n ? n[:description] : ''
     end
 
