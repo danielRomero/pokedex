@@ -1,5 +1,8 @@
 module Pokedex
   class Pokemon
+    require 'pokedex/translation/name'
+    include Pokedex::Translation::Name
+    
     attr_accessor :id, :sprite, :capture_rate, :names, :descriptions, :evolution_chain_url, :is_baby, :generas, :egg_groups, :generation_name, :version_groups
 
     def initialize(args={})
@@ -22,11 +25,6 @@ module Pokedex
 
     def self.find_by_url url
       new Pokedex.get URI.parse(url).path
-    end
-
-    def name locale='es'
-      n = names.find{ |name| name[:locale] == locale.to_s }
-      n ? n[:name] : ''
     end
 
     def genera locale='es'

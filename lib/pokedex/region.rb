@@ -1,5 +1,7 @@
 module Pokedex
   class Region
+    require 'pokedex/translation/name'
+    include Pokedex::Translation::Name
 
     attr_accessor :id, :names, :generation, :version_groups_urls
 
@@ -16,11 +18,6 @@ module Pokedex
 
     def self.find_by_url url
       new Pokedex.get URI.parse(url).path
-    end
-
-    def name locale='es'
-      n = names.find{ |name| name[:locale] == locale.to_s }
-      n ? n[:name] : ''
     end
 
     def version_groups

@@ -1,5 +1,7 @@
 module Pokedex
   class EggGroup
+    require 'pokedex/translation/name'
+    include Pokedex::Translation::Name
 
     attr_accessor :id, :names, :pokemon_urls
 
@@ -17,9 +19,6 @@ module Pokedex
       new Pokedex.get URI.parse(url).path
     end
 
-    def name locale='es'
-      n = names.find{ |name| name[:locale] == locale.to_s }
-      n ? n[:name] : ''
-    end
+
   end
 end
