@@ -29,8 +29,7 @@ module Pokedex
     end
 
     def genera locale='es'
-      n = generas.find{ |genera| genera[:locale] == locale.to_s }
-      n ? n[:genus] : ''
+      extract_locale generas, locale, :genus
     end
 
     def evolution_chain

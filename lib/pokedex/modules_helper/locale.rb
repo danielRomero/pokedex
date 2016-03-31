@@ -6,7 +6,7 @@ module Pokedex
       # locale => 'es', 'en', 'it'...
       # elem => :name, :description, :genus...
       def extract_locale(array, locale, elem)
-        n = array.find{ |elem| elem[:locale] == locale.to_s }
+        n = array.find{ |e| e[:locale] == locale.to_s }
         n ? n[elem] : ''
       end
     end
