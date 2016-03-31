@@ -1,13 +1,14 @@
 module Pokedex
   class Pokemon
-    require 'pokedex/translation/name'
-    include Pokedex::Translation::Name
-    
-    attr_accessor :id, :sprite, :capture_rate, :names, :descriptions, :evolution_chain_url, :is_baby, :generas, :egg_groups, :generation_name, :version_groups
+    require 'pokedex/modules_helper/name'
+    include Pokedex::ModulesHelper::Name
+    require 'pokedex/modules_helper/description'
+    include Pokedex::ModulesHelper::Description
+
+    attr_accessor :id, :sprite, :capture_rate, :names, :descriptions, :evolution_chain_url, :is_baby, :generas, :egg_groups, :generation_name
 
     def initialize(args={})
       @id                  = args['id']
-      @names               = args['names'].map{ |name| { name: name['name'], locale: name['language']['name']} }
       @generas             = args['genera'].map{ |genera| { genus: genera['genus'], locale: genera['language']['name']} }
       @descriptions        = get_descriptions args['flavor_text_entries']
       @is_baby             = args['is_baby']
@@ -16,7 +17,7 @@ module Pokedex
       @evolution_chain_url = args['evolution_chain']['url']
       @egg_groups          = args['egg_groups'].map{ |egg_groups| EggGroup.find_by_url egg_groups['url'] }
       @generation_name     = args['generation']['name']
-      #@version_groups      = args['version_groups'].map{ |version_group| version_group['name'] }
+      extract_names args
     end
 
     def self.find id
@@ -29,12 +30,7 @@ module Pokedex
 
     def genera locale='es'
       n = generas.find{ |genera| genera[:locale] == locale.to_s }
-      n ? n[:genera] : ''
-    end
-
-    def description locale='es'
-      n = descriptions.find{ |description| description[:locale] == locale.to_s }
-      n ? n[:description] : ''
+      n ? n[:genus] : ''
     end
 
     def evolution_chain

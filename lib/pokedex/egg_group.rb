@@ -1,14 +1,14 @@
 module Pokedex
   class EggGroup
-    require 'pokedex/translation/name'
-    include Pokedex::Translation::Name
+    require 'pokedex/modules_helper/name'
+    include Pokedex::ModulesHelper::Name
 
     attr_accessor :id, :names, :pokemon_urls
 
     def initialize(args = {})
       @id           = args['id']
-      @names        = args['names'].map{ |name| {name: name['name'], locale: name['language']['name']} }
       @pokemon_urls = args['pokemon_species'].map{ |pokemon_specie| pokemon_specie['url'] }
+      extract_names args
     end
 
     def self.find id
@@ -18,7 +18,5 @@ module Pokedex
     def self.find_by_url url
       new Pokedex.get URI.parse(url).path
     end
-
-
   end
 end

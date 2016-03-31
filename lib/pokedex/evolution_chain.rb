@@ -18,7 +18,7 @@ module Pokedex
     private
 
     def generate_evolves(chain_args={}, evolves={})
-      return evolves if chain_args.empty?
+      return evolves if chain_args.empty? || chain_args.nil?
       evolves[:pokemon]    = chain_args['species'].nil? ?
                               nil :
                               Pokemon.find_by_url(chain_args['species']['url'])

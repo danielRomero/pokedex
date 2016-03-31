@@ -1,17 +1,17 @@
 module Pokedex
   class Generation
 
-    require 'pokedex/translation/name'
-    include Pokedex::Translation::Name
+    require 'pokedex/modules_helper/name'
+    include Pokedex::ModulesHelper::Name
 
     attr_accessor :id, :region_url, :names, :pokemon_urls, :version_groups
 
     def initialize(args={})
       @id             = args['id']
-      @names          = args['names'].map{ |name| {name: name['name'], locale: name['language']['name']} }
-      @pokemon_urls        = args['pokemon_species'].map{ |pokemon_specie| pokemon_specie['url'] }
+      @pokemon_urls   = args['pokemon_species'].map{ |pokemon_specie| pokemon_specie['url'] }
       @version_groups = args['version_groups'].map{ |version_group| version_group['url'] }
       @region_url     = args['main_region']['url']
+      extract_names args
     end
 
     def self.find id

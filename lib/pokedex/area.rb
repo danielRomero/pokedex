@@ -1,13 +1,13 @@
 module Pokedex
   class Area
-    require 'pokedex/translation/name'
-    include Pokedex::Translation::Name
-    
+    require 'pokedex/modules_helper/name'
+    include Pokedex::ModulesHelper::Name
+
     attr_accessor :id, :names
 
     def initialize(args={})
       @id     = args['id']
-      @names  = args['names'].map{ |name| {name: name['name'], locale: name['language']['name']} }
+      extract_names args
     end
 
     def self.find id
