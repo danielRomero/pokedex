@@ -1,13 +1,11 @@
-# Pokedex (Work in progress)
+# Pokedex
 [![Build Status](https://travis-ci.org/danielRomero/pokedex.svg?branch=master)](https://travis-ci.org/danielRomero/pokedex)
 [![Code Climate](https://codeclimate.com/github/danielRomero/pokedex/badges/gpa.svg)](https://codeclimate.com/github/danielRomero/pokedex)
 [![Test Coverage](https://codeclimate.com/github/danielRomero/pokedex/badges/coverage.svg)](https://codeclimate.com/github/danielRomero/pokedex/coverage)
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/pokedex`. To experiment with that code, run `bin/console` for an interactive prompt.
+Ruby wrapper for http://pokeapi.co Pokemon API.
 
-TODO: Delete this and the text above, and describe your gem
-
-## Installation (This gem is not available in rubygems yet)
+## Installation
 
 Add this line to your application's Gemfile:
 
@@ -25,13 +23,36 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
-
-Available configuration
-tiemout
+#### Available configuration
+You can set different timeout. The http://pokeapi.co sometimes can be very slow.
   ```ruby
+  # application.rb
   Pokedex.timeout = 30 # seconds
   ```
+#### Methods
+Example of Pokemon info
+```
+pokemon = Pokedex::Pokemon.find 1
+pokemon.name 'zh' # Pokemon's name by locale
+pokemon.evolution_chain
+
+```
+##### Resources Availables:
+  - Area: Location areas are sections of areas, such as floors in a building or cave. Each area has its own set of possible Pokémon encounters.
+
+  - EggGroup: Egg Groups are categories which determine which Pokémon are able to interbreed. Pokémon may belong to either one or two Egg Groups.
+
+  - EvolutionChain: Evolution chains are essentially family trees. They start with the lowest stage within a family and detail evolution conditions for each as well as Pokémon they can evolve into up through the hierarchy.
+
+  - Generation: A generation is a grouping of the Pokémon games that separates them based on the Pokémon they include.
+
+  - Location: Locations that can be visited within the games. Locations make up sizable portions of regions, like cities or routes.
+
+  - Pokemon: Pokémon are the creatures that inhabit the world of the Pokémon games. They can be caught using Pokéballs and trained by battling with other Pokémon.
+
+  - Region: A region is an organized area of the Pokémon world. Most often, the main difference between regions is the species of Pokémon that can be encountered within them.
+
+  - VersionGroup: Version groups categorize highly similar versions of the games.
 
 ## Development
 
@@ -41,7 +62,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/danielromero/pokedex. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/danielromero/pokedex.
 
 ### Steps to contribute:
   1. Open new issue https://github.com/danielRomero/pokedex/issues/new

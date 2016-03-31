@@ -9,9 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Daniel Romero Esteban"]
   spec.email         = ["daniel.romero.esteban@gmail.com"]
 
-  spec.summary       = %q{here cool.}
-  #spec.description   = %q{TODO: Write a longer description or delete this line.}
-  #spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{Wrapper for http://pokeapi.co Pokemon API.}
+  spec.homepage      = "https://github.com/danielRomero/pokedex"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or
