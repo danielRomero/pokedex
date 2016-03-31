@@ -73,6 +73,11 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/daniel
   6. Commit and push your branch and make new pull request https://github.com/danielRomero/pokedex/compare
   7. If everything is ok, your changes will be included to the next version.
 
+## TODO
+
+1. Improve Tests
+2. Cover all http://pokeapi.co resources & attributes
+
 ## License
 
 The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
