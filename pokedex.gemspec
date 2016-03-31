@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Daniel Romero Esteban"]
   spec.email         = ["daniel.romero.esteban@gmail.com"]
 
-  spec.summary       = %q{Wrapper for http://pokeapi.co Pokemon API.}
+  spec.summary       = %q{Ruby wrapper for http://pokeapi.co Pokemon API.}
   spec.homepage      = "https://github.com/danielRomero/pokedex"
   spec.license       = "MIT"
 
