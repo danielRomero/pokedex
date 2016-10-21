@@ -1,7 +1,4 @@
 module Pokedex
-  require 'pry' # only for debug
-  require 'awesome_print' # only for debug
-
   require 'unirest' # for api requests
 
   require 'pokedex/area'
